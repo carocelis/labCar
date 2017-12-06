@@ -1,0 +1,158 @@
+/* Los estilos de tu proyecto */
+body{
+  background-color: #F7B617;
+}
+
+.navigator{
+	margin: 0;
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+
+.sec-taxi{
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: 100%;
+	background-position: 70% 92%;
+	padding-top: 12%;
+	padding-bottom: 15%;
+}
+
+.yellow-box{
+	background-color: #F7B617;
+	padding-left: 3%;
+	padding-bottom: 3%;
+  color: white;
+}
+
+.yellow-box h1{
+  padding-bottom: 3%;
+}
+
+#yellow-box2{
+  display: none;
+}
+
+.line::after, .line::before{
+	content: " ";
+  display: inline-block;
+  width: 6em;
+  height: 0.1em;
+  background-color: #FFFFFF;
+  margin: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.line{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.sec-iphone{
+  padding: 2%;
+  border: 1px solid white;
+  border-left: none;
+}
+
+/*sección iphone visible versión móvil*/
+#sec-iphone2{
+  padding: 3%;
+  display: none;
+  color: white;
+}
+
+.cont-iphone2{
+  padding: 5%;
+  border: 1px solid white;
+  color: white;
+}
+/*fin sección iphone móvil*/
+
+.cont-iphone{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.text-iphone{
+  color: white;
+  padding-top: 2%;
+  font-size: 120%;
+}
+
+.sec-conduce{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+.conduce-box{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 7%;
+  padding-bottom: 15%;
+}
+
+.enter{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+.enter::placeholder{
+  color: white;
+}
+
+.cont-tarifas{
+  padding-top: 3%;
+  color: white;
+}
+
+.inputs{
+  padding-top: 5%;
+}
+
+.cont-boton{
+  padding-top: 5%;
+}
+
+.cont-map{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.map{
+  padding: 2%;
+  border: 1px solid white;
+}
+
+.foot{
+  background-color: #2B2B2B;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+
+footer a{
+  color: white;
+  line-height: 250%;
+}
+footer a:hover{
+  color: #41423D;
+  text-decoration: none;
+}
+
+.apps img{
+  padding-top: 8%;
+}
+.apps{
+  padding-top: 8%;
+}
+
+footer .page{
+  padding-right: 0;
+  padding-left: 0; 
+}
+
+.copy{
+  padding-bottom: 3%;
+}

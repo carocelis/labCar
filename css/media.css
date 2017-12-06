@@ -1,0 +1,24 @@
+@media (max-width: 767px){
+  .boton-nav{
+    float: left;
+  }
+  .yellow-box{
+    display: none;
+  }
+  #yellow-box2{
+    display: block;
+  }
+  #section-iphone{
+    display: none;
+  }
+  #sec-iphone2{
+    display: block;
+  }
+  .second-ul{
+    display: none;
+  }
+  .sec-taxi{
+    padding-top: 35%;
+    padding-bottom: 30%;
+  }
+}
